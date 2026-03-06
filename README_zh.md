@@ -69,7 +69,7 @@ Gemini 使用 Alpha 混合将水印叠加到原图：
 
 ### 关键点
 
-- 使用内置模板：`assets/bg_48.png` / `assets/bg_96.png`
+- 使用嵌入代码的水印模板（Base64 编码，无外部依赖）
 - Alpha map = RGB 通道最大值
 - 包含噪声过滤（ALPHA_NOISE_FLOOR）
 - 图片 ≤ 1024×1024 用 48×48 模板，反之用 96×96
